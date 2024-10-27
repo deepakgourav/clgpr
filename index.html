@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,11 +40,6 @@
         <input type="submit" value="Calculate">
     </form>
 
-    {% if total_salary_before_tax is not none %}
-        <h2>Results:</h2>
-        <p>Total Monthly Salary (before tax): ${{ total_salary_before_tax | round(2) }}</p>
-        <p>Tax Deduction: ${{ tax_deduction | round(2) }}</p>
-        <p>Net Monthly Salary (after tax): ${{ net_salary | round(2) }}</p>
-    {% endif %}
+    
 </body>
 </html>
